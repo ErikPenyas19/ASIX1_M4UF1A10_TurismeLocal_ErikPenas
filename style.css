@@ -128,3 +128,69 @@ h3 {
     font-size: 1.5rem;
 }
 
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    header {
+        height: 75vh;
+    }
+
+    .m-column {
+        height: 75vh;
+        width: 40%;
+    }
+    
+    .c-column {
+        width: 100%;
+    }
+
+    .n-column {
+        float: none;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    div[class="flug"]>img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .fnt {
+        width: 250px;
+        height: 250px;
+    }
+
+    .fcnt {
+        width: 150px;
+        height: 150px;
+    }
+    
+    iframe {
+        height: 150px;
+        width: 250px;
+        padding-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .fcnt {
+        width: 200px;
+        height: 200px;
+    }
+
+    iframe {
+        height: 200px;
+        width: 275px;
+        padding-left: 2%;
+    }
+}
+
