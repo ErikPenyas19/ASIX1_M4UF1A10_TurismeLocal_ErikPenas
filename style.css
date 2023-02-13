@@ -135,8 +135,8 @@ h3 {
     }
 
     header>h1 {
-        font-size: 3rem;
-        padding-left: 3%;
+        font-size: 2.75rem;
+        padding-left: 1%;
     }
 
     header {
@@ -145,7 +145,7 @@ h3 {
 
     .m-column {
         height: 75vh;
-        width: 40%;
+        width: 37%;
     }
     
     .c-column {
