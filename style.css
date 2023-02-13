@@ -134,8 +134,9 @@ h3 {
         font-size: 14px;
     }
 
-    h1 {
-        font-size: 16px;
+    header>h1 {
+        font-size: 3rem;
+        padding-left: 3%;
     }
 
     header {
